@@ -33,7 +33,7 @@ $(document).ajaxStop(function(){
 
 $(function(){
 
-	$('category').click(function(){
+	$('.category').click(function(){
 		$('.lt_aside .child').stop().slideToggle();
 	});
 
@@ -42,6 +42,7 @@ $(function(){
 
 
 	$('.icon_menu').click(function(){
+		$('.lt_aside').toggleClass("hidemenu");
 		$('.lt_topbar').toggleClass("hidemenu");
 		$('.lt_main').toggleClass("hidemenu");
 	});

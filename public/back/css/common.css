@@ -61,6 +61,9 @@ ul{
 	font-size: 24px;
 	background-color: #367FA9;
 }
+.lt_aside .brand a {
+	color: #fff;
+}
 
 .lt_aside .user {
 	height: 180px;
